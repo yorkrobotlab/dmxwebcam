@@ -31,3 +31,6 @@
 # CMake build directory
 
 build
+
+# debuild output
+obj-arm-linux-gnueabihf/

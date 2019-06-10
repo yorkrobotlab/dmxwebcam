@@ -1,0 +1,15 @@
+Source: dmxwebcam
+Section: video
+Priority: optional
+Maintainer: Russell Joyce <russell.joyce@york.ac.uk>
+Build-Depends: cmake, debhelper (>=9), libbsd-dev, libraspberrypi-dev
+Standards-Version: 3.9.8
+Homepage: https://github.com/AndrewFromMelbourne/dmxwebcam
+
+Package: dmxwebcam
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Webcam (v4l2) viewer for the Raspberry Pi console
+ Displays a video input device (e.g. USB webcam or CSI camera) on the Raspberry
+ Pi's HDMI output.
