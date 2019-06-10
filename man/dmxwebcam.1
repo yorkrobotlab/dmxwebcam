@@ -1,0 +1,31 @@
+.TH DMXWEBCAM 1
+.SH NAME
+dmxwebcam \- webcam (v4l2) viewer for the Raspberry Pi console
+.SH SYNOPSIS
+.B dmxwebcam
+\fI\,<options>\/\fR
+.SH DESCRIPTION
+.B dmxwebcam
+displays a video input device (e.g. USB webcam or CSI camera) on the Raspberry Pi's HDMI output.
+.SH OPTIONS
+.HP
+\fB\-\-daemon\fR \- start in the background as a daemon
+.HP
+\fB\-\-display\fR <number> \- Raspberry Pi display number (default 0)
+.HP
+\fB\-\-fps\fR <fps> \- set desired frames per second (default 30 frames per second)
+.HP
+\fB\-\-fullscreen\fR \- show full screen
+.HP
+\fB\-\-pidfile\fR <pidfile> \- create and lock PID file (if being run as a daemon)
+.HP
+\fB\-\-sample\fR <value> \- only display every value frame
+.HP
+\fB\-\-width\fR <width> \- set video width (default 640)
+.HP
+\fB\-\-height\fR <height> \- set video height (default 480)
+.HP
+\fB\-\-videodevice\fR <device> \- video device for webcam (default \fI\,/dev/video0\/\fP)
+.HP
+\fB\-\-help\fR \- print usage and exit
+
