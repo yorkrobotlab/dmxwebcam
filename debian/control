@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Russell Joyce <russell.joyce@york.ac.uk>
 Build-Depends: cmake, debhelper (>=9), libbsd-dev, libraspberrypi-dev
 Standards-Version: 3.9.8
-Homepage: https://github.com/AndrewFromMelbourne/dmxwebcam
+Homepage: https://github.com/yorkrobotlab/dmxwebcam
 
 Package: dmxwebcam
 Architecture: any
